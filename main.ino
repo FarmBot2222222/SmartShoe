@@ -41,7 +41,7 @@ void loop() {
   Serial.print(distance);
   Serial.println(" cm");
 
-  if (distance < 20){
+  if (distance < 200){
     digitalWrite(motor,HIGH); // When the the distance below 20cm
     digitalWrite(buzzer,HIGH);    
   }
